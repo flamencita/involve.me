@@ -6,6 +6,7 @@ tests\BaseTest.class
 pageobject\PublishNowPage.class
 tests\PlansTest.class
 tests\HomePageTest.class
+tests\AnalyticsTest.class
 pageobject\DeleteProjectPage.class
 tests\CreateProjectTest.class
 pageobject\CreateNewWorkspacePage.class
@@ -14,6 +15,7 @@ pageobject\ChooseProjectTypePage.class
 pageobject\NewProjectNamePage.class
 utilities\ListenerClass.class
 pageobject\ProjectsPage.class
+pageobject\AnalyticsPage.class
 tests\SearchProjectTest.class
 tests\ChangePasswordTest.class
 pageobject\GeneralSettingsPage.class
@@ -26,6 +28,7 @@ tests\LoginTest.class
 pageobject\HomePage.class
 tests\RegistrationTest.class
 tests\ResetPasswordTests.class
+pageobject\FillInYourPersonalDetailsPage.class
 pageobject\SomePagesHaveNoLinkPage.class
 pageobject\YourAccountPage.class
 pageobject\LoginPage.class

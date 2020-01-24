@@ -17,7 +17,7 @@ public class ChangePasswordTest extends BaseTest{
 
 	@Severity(SeverityLevel.NORMAL)
 	@Description("This test shows if change password works")
-	@Test (enabled=true, description="Succeed changing the password")
+	@Test (enabled=true, description="Succeed,")
 	public void changePassword() throws InterruptedException {
 		
 		HomePage hp=new HomePage(driver);

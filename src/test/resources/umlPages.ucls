@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
-  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+<class-diagram version="1.2.4" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
   <class id="1" language="java" name="pageobject.OrganizationPage" project="Involve.Me3" 
     file="/Involve.Me3/src/test/java/pageobject/OrganizationPage.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="117" width="206" x="547" y="53"/>    
