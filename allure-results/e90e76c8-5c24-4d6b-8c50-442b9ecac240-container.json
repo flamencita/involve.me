@@ -1,0 +1,1 @@
+{"uuid":"e90e76c8-5c24-4d6b-8c50-442b9ecac240","name":"tests.DeleteProjectTest","children":["c715cbe0-9732-4fc1-aaf7-8a32a89c62b2"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1579731896214,"stop":1579731902806}],"afters":[],"links":[],"start":1579731896151,"stop":1579731912268}

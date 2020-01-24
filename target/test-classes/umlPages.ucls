@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="pageobject.OrganizationPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/OrganizationPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="206" x="547" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="pageobject.EditorProjectPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/EditorProjectPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="173" x="793" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="pageobject.YourAccountPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/YourAccountPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="233" x="1006" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="pageobject.AnalyticsPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/AnalyticsPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="175" x="1279" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="pageobject.LoginPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/LoginPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="195" x="1494" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="pageobject.PublishNowPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/PublishNowPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="183" x="1729" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="pageobject.DeleteProjectPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/DeleteProjectPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="172" x="1952" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="pageobject.ProjectsPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/ProjectsPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="203" x="2164" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="pageobject.PlansPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/PlansPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="135" x="2407" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="pageobject.SomePagesHaveNoLinkPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/SomePagesHaveNoLinkPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="223" x="2582" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="pageobject.HomePage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/HomePage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="172" x="2845" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="pageobject.MainPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/MainPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="204" x="3057" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="pageobject.ResetPassPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/ResetPassPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="161" x="3301" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="pageobject.BasePage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/BasePage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="243" x="2719" y="-266"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="pageobject.GeneralSettingsPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/GeneralSettingsPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="186" x="3502" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="pageobject.TemplatesPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/TemplatesPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="157" x="3728" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="pageobject.ChooseProjectTypePage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/ChooseProjectTypePage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="202" x="3925" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="pageobject.RegistrationPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/RegistrationPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="166" x="4167" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="pageobject.FillInYourPersonalDetailsPage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/FillInYourPersonalDetailsPage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="226" x="4373" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="pageobject.NewProjectNamePage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/NewProjectNamePage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="192" x="4639" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="pageobject.CreateNewWorkspacePage" project="Involve.Me3" 
+    file="/Involve.Me3/src/test/java/pageobject/CreateNewWorkspacePage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="219" x="4871" y="53"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="25">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="27">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="28">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="29">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="30">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="31">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="32">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="33">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="35">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="36">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="37">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="39">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="40">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <generalization id="41">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
