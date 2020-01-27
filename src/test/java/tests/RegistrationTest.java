@@ -2,7 +2,6 @@ package tests;
 
 import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
-
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -12,7 +11,7 @@ import pageobject.RegistrationPage;
 
 public class RegistrationTest extends BaseTest{
 	
-	@Description("This test click on refister link from the registration page")
+	@Description("This test clicks on register link from Home page and go back to login page")
 	@Severity(SeverityLevel.MINOR)
 	@Test
 	public void openLogin() {

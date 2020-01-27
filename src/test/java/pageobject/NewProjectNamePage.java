@@ -11,6 +11,8 @@ public class NewProjectNamePage extends BasePage{
 	private WebElement projectNameFeild;
 	@FindBy (css=".swal-button.swal-button--confirm")
 	private WebElement startEditingBtn;
+	@FindBy (css="li:nth-child(4) > a")
+	private WebElement saveAndExistBtn;
 
 	public NewProjectNamePage(WebDriver driver) {
 		super(driver);
@@ -23,6 +25,8 @@ public class NewProjectNamePage extends BasePage{
 		fillText(projectNameFeild, newProjectName);
 		sleep(2000);
 		click(startEditingBtn);
+		sleep(2000);
+		click(saveAndExistBtn);
 		sleep(2000);
 	}
 }

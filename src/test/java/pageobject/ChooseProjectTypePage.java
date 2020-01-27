@@ -19,6 +19,7 @@ public class ChooseProjectTypePage extends BasePage{
 	 */
 	@Step("Select Quiz Project")
 	public void selectQuizProject() {
+		sleep(2000);
 		click(quizProjectBtn);
 	}
 }

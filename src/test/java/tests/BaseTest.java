@@ -20,9 +20,9 @@ class BaseTest {
 		driver.get("https://www.involve.me/");
 	}
 	
-//	@AfterClass
-//	public void closeDriver() {
-//	driver.quit();
-//	}
+	@AfterClass
+	public void closeDriver() {
+	driver.quit();
+	}
 }
 

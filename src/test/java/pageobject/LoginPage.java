@@ -30,7 +30,9 @@ public class LoginPage extends BasePage {
 	 */
 	@Step("Fill in email and password fields and click login button")
 	public void login(String email, String password) {
+		sleep(2000);
 		fillText(emailLogin, email);
+		sleep(2000);
 		fillText(passLogin, password);
 		sleep(2000);
 		click(loginBtn);

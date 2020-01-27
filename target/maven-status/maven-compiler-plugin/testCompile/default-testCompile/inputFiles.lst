@@ -3,7 +3,6 @@ C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\tests\CreateWo
 C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\pageobject\DeleteProjectPage.java
 C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\pageobject\YourAccountPage.java
 C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\pageobject\PublishNowPage.java
-C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\tests\PlansTest.java
 C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\tests\RegistrationTest.java
 C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\pageobject\ResetPassPage.java
 C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\pageobject\TemplatesPage.java
@@ -18,6 +17,7 @@ C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\pageobject\Reg
 C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\pageobject\MainPage.java
 C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\pageobject\NewProjectNamePage.java
 C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\tests\HomePageTest.java
+C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\tests\UpgradeAccountTest.java
 C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\pageobject\LoginPage.java
 C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\pageobject\PlansPage.java
 C:\Users\maya.TZUNAMI\eclipse-workspace\Involve.Me3\src\test\java\tests\BaseTest.java

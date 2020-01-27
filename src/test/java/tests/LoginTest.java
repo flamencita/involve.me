@@ -7,25 +7,11 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import pageobject.HomePage;
 import pageobject.LoginPage;
+import pageobject.MainPage;
 import pageobject.RegistrationPage;
 import utilities.AllureAttachment;
 
 public class LoginTest extends BaseTest {
-
-//	@Severity(SeverityLevel.BLOCKER)
-//	@Description("This test is for seccessfull login process")
-//	@Test(description="Login succeeded")
-//	public void Login01_loginSucceed() {
-//		
-//		HomePage hp = new HomePage(driver);
-//		hp.openLoginPage();
-//		LoginPage lp = new LoginPage(driver);
-//		lp.login("info.flamencita@gmail.com", "Salom1984");
-//		MainPage mp=new MainPage(driver);
-//		String expected = mp.getUserName();
-//		assertEquals("TestMaya", expected);
-//		AllureAttachment.addTextAttachment("Seccessful login proccess");
-//	}
 	
 	@Severity(SeverityLevel.BLOCKER)
 	@Description("This login test is invalid login")
@@ -49,5 +35,19 @@ public class LoginTest extends BaseTest {
 		RegistrationPage rp=new RegistrationPage(driver);
 		String expected=rp.getRegistrationUrl();
 		assertEquals("https://app.involve.me/register", expected);	
+		rp.openLoginPage();
+	}
+	
+	@Severity(SeverityLevel.BLOCKER)
+	@Description("This test is for seccessfull login process")
+	@Test(description="Login succeeded")
+	public void Login03_loginSucceed() {
+		
+		LoginPage lp = new LoginPage(driver);
+		lp.login("info.flamencita@gmail.com", "Salom1984");
+		MainPage mp=new MainPage(driver);
+		String expected = mp.getUserName();
+		assertEquals("TestMaya", expected);
+		AllureAttachment.addTextAttachment("Seccessful login proccess");
 	}
 }

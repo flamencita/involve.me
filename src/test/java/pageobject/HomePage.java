@@ -41,6 +41,7 @@ public class HomePage extends BasePage{
 	@Step("Enetr you email and click on 'Get Started Free' button")
 	public void getStarted(String email) {
 		fillText(emailField, email);
+		sleep(2000);
 		click(getStartedButton);
 	}
 }

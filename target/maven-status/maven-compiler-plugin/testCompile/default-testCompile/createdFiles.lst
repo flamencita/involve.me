@@ -4,7 +4,6 @@ pageobject\MainPage.class
 tests\CreateWorkspaceTest.class
 tests\BaseTest.class
 pageobject\PublishNowPage.class
-tests\PlansTest.class
 tests\HomePageTest.class
 tests\AnalyticsTest.class
 pageobject\DeleteProjectPage.class
@@ -33,4 +32,5 @@ pageobject\SomePagesHaveNoLinkPage.class
 pageobject\YourAccountPage.class
 pageobject\LoginPage.class
 pageobject\OrganizationPage.class
+tests\UpgradeAccountTest.class
 pageobject\BasePage.class

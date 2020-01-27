@@ -21,12 +21,13 @@ public class AnalyticsTest extends BaseTest{
 		HomePage hp=new HomePage(driver);
 		hp.openLoginPage();
 		LoginPage lp=new LoginPage(driver);
-		lp.login("ifo.flamencita@gmail.com", "Salom1984");
+		lp.login("info.flamencita@gmail.com", "Salom1984");
 		MainPage mp= new MainPage(driver);
-		mp.openAnalytics();
+		int expected=mp.getTotalProjects();
+		mp.selectTab("Analytics");
 		AnalyticsPage ap=new AnalyticsPage(driver);
-		int expected=ap.getProjectsNum();
-		assertEquals("5", expected);
+		int actual=ap.getProjectsNum();
+		assertEquals(actual, expected);
 	}
 	@Severity(SeverityLevel.NORMAL)
 	@Description("Analyzing how many published projects exist in the relevant account/Url")
@@ -35,11 +36,13 @@ public class AnalyticsTest extends BaseTest{
 		HomePage hp=new HomePage(driver);
 		hp.openLoginPage();
 		LoginPage lp=new LoginPage(driver);
-		lp.login("ifo.flamencita@gmail.com", "Salom1984");
+		lp.login("info.flamencita@gmail.com", "Salom1984");
 		MainPage mp= new MainPage(driver);
-		mp.openAnalytics();
+		mp.allProjectsCounters("Published");
+		int expected=mp.totalPublished();
+		mp.selectTab("Analytics");
 		AnalyticsPage ap=new AnalyticsPage(driver);
-		int expected=ap.getPublishedNum();
-		assertEquals("3", expected);
+		int actual=ap.getTotalPublished();
+		assertEquals(actual, expected);
 	}
 }

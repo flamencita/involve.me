@@ -3,16 +3,14 @@ package tests;
 import static org.testng.Assert.assertEquals;
 
 import org.testng.annotations.Test;
-
 import pageobject.HomePage;
 import pageobject.LoginPage;
 import pageobject.ResetPassPage;
-import utilities.AllureAttachment;
 
 public class ResetPasswordTests extends BaseTest {
 
 	@Test
-	public void reset() {
+	public void resetPassword() {
 		HomePage hp = new HomePage(driver);
 		hp.openLoginPage();
 		LoginPage lp = new LoginPage(driver);
@@ -21,6 +19,5 @@ public class ResetPasswordTests extends BaseTest {
 		rpp.resetPass("info.flamencita@gmail.com");
 		String expected=rpp.resetPassMsg();
 		assertEquals("A reset link has been sent to the email address, if it has been used to register for an account.", expected);
-		AllureAttachment.addTextAttachment("Cool");
 	}
 }

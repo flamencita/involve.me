@@ -5,14 +5,8 @@
 		<listener class-name="utilities.ListenerClass"></listener>
 	</listeners>
 	<test thread-count="5" name="Test">
-		<classes>
-			<class name="tests.LoginTest" />
-			<class name="tests.ResetPasswordTests" />
-			<class name="tests.CreateProjectTest" />
-			<class name="tests.ChangePasswordTest" />
-			<class name="tests.DeleteProjectTest" />
-			<class name="tests.searchProject" />
-			<class name="tests.OrganizationTest" />
-		</classes>
+		<packages>
+			<package name="tests"></package>
+		</packages>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

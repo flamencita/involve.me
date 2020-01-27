@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.DeleteProjectTest">
+      <class name="tests.AnalyticsTest">
         <methods>
-          <include name="deleteProject"/>
+          <include name="closeDriver"/>
+          <include name="t01_analyzeProjects"/>
+          <include name="t02_analyzePublished"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- tests.DeleteProjectTest -->
+      </class> <!-- tests.AnalyticsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

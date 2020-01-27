@@ -19,7 +19,7 @@ public class OrganizationTest extends BaseTest{
 		HomePage hp=new HomePage(driver);
 		hp.openLoginPage();
 		LoginPage lp=new LoginPage(driver);
-		lp.login("info.flamencita@gmail.com", "Salom1984");
+		lp.login("mayarozilio@gmail.com", "Salom1984");
 		MainPage mp=new MainPage(driver);
 		mp.changeOrganization();
 		
