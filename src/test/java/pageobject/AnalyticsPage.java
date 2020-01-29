@@ -17,18 +17,16 @@ public class AnalyticsPage extends BasePage{
 	}
 	/**
 	 * Gets the number of projects
-	 * @return
 	 */
 	public int getProjectsNum() {
-		sleep(5000);
+		sleep(8000);
 		return Integer.parseInt(getText(projectCounter));
 	}
 	/**
 	 * returns the number of published projects
-	 * @return
 	 */
 	public int getTotalPublished() {
-		sleep(5000);
+		sleep(8000);
 		return Integer.parseInt(getText(numOfPublished).replaceAll("[^0-9]", ""));
 	}
 }

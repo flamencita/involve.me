@@ -32,9 +32,7 @@ public class FillInYourPersonalDetailsPage extends BasePage {
 		fillText(firstNameField, firstName);
 		fillText(lastNameField, lastName);
 		fillText(emailField, email);
-		
+		sleep(2000);
 		click(nextBtn);
 	}
-
-	
 }

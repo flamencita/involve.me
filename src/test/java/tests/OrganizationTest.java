@@ -22,6 +22,5 @@ public class OrganizationTest extends BaseTest{
 		lp.login("mayarozilio@gmail.com", "Salom1984");
 		MainPage mp=new MainPage(driver);
 		mp.changeOrganization();
-		
 	}
 }

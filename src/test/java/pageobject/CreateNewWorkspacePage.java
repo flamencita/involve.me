@@ -19,7 +19,7 @@ public class CreateNewWorkspacePage extends BasePage {
 	/**
 	 * Naming a new workspace and clicks create
 	 */
-	@Step("Fill in work space name and click create button")
+	@Step("Fill in work space name and click on create button")
 	public void createNewWorkspace(String name) {
 		fillText(workspaceNameField, name);
 		click(createbtn);

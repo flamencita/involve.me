@@ -16,7 +16,7 @@ import utilities.AllureAttachment;
 public class UpgradeAccountTest extends BaseTest{
 
 	@Severity(SeverityLevel.NORMAL)
-	@Description("This test case tests if by clicking on 'Upgrade' button it navigates to 'Plans/Billing' page")
+	@Description("This tests case tests if by clicking on 'Upgrade' button it navigates to 'Plans/Billing' page")
 	@Test
 	public void upgradeYourAccount() {
 		HomePage hp=new HomePage(driver);

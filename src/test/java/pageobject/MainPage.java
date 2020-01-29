@@ -46,6 +46,7 @@ public class MainPage extends BasePage {
 	/**
 	 * Clicks drop down list from account name and selecting "Your account" button
 	 */
+	@Step("Click on 'Your Account' from the Account menu")
 	public void selectYourAccount() {
 		click(openMenuAccount);
 		sleep(2000);
@@ -66,6 +67,7 @@ public class MainPage extends BasePage {
 	/**
 	 * This method clicks drop down list from user account menu and clicks selecting change organization"
 	 */
+	@Step("Click on 'Change organization' from the Account menu")
 	public void changeOrganization() {
 		click(openMenuAccount);
 		sleep(5000);
@@ -75,12 +77,14 @@ public class MainPage extends BasePage {
 	/**
 	 * Clicks on 'Upgrade' button
 	 */
+	@Step("Click on 'Upgrade' button")
 	public void upgradeAccount() {
 		click(upgradeButton);
 	}
 	/**
 	 * Clicks 'Create Project' button 
 	 */
+	@Step("Click on 'Create Project' button")
 	public void createProject() {
 		click(createProjectBtn);
 	}
@@ -89,28 +93,30 @@ public class MainPage extends BasePage {
 	 * @return
 	 */
 	public int getTotalProjects() {
-		sleep(5000);
+		sleep(8000);
 		return Integer.parseInt(getText(numOfProjects));
 	}
 
 	public void allProjectsCounters(String type) {
 		for (WebElement el : typeList) {
 			if(el.getText().equalsIgnoreCase(type)) {
-				sleep(4000);
+				sleep(6000);
 				el.click();
 			}
 		}
 	}
-	
+	/**
+	 * Returns the total published projects
+	 * @return
+	 */
 	public int totalPublished() {
-		sleep(4000);
+		sleep(8000);
 		return Integer.parseInt(getText(numOfPublished).replaceAll("[^0-9]", ""));
 	}
-
-
 	/**
 	 * Logs out from account
 	 */
+	@Step("Click on 'Log out' from the account menu")
 	public void logOut() {
 		sleep(8000);
 		click(openMenuAccount);

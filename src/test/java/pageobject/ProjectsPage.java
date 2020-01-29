@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import io.qameta.allure.Step;
+
 public class ProjectsPage extends BasePage {
 
 	@FindBy(css=".flex.flex-col.justify-center.items-center a")
@@ -37,18 +39,21 @@ public class ProjectsPage extends BasePage {
 	/**
 	 * Clicks start a new project button-First project
 	 */
+	@Step("Click on 'Start New project' button")
 	public void startNewProject() {
 		click(startProjectBtn);
 	}
 	/**
 	 * Creates new project when there are other projects
 	 */
+	@Step("Click on 'Create New project' button")
 	public void createNewProject() {
 		click(createNewProject);
 	}
 	/** 
 	 * Delete the relevant project
 	 */
+	@Step("Select the project you want to delete,click on project menu")
 	public void deleteProject(String projectName) {
 		for (int i = 0; i < projectNames.size(); i++) {
 			if (projectNames.get(i).getText().equalsIgnoreCase(projectName)) {
@@ -63,6 +68,7 @@ public class ProjectsPage extends BasePage {
 	 * Selecting from project menu any option
 	 * @param chooseFromMenu
 	 */
+	@Step("From the project menu, click 'Delete Project' button")
 	public void selectFromMenu(String chooseFromMenu) {
 		for (WebElement el : menuList) {
 			if(el.getText().equalsIgnoreCase(chooseFromMenu)) {
@@ -73,6 +79,10 @@ public class ProjectsPage extends BasePage {
 			}
 		}
 	}
+	/**
+	 * 
+	 * @return
+	 */
 	public int getWorkspaceCount()
 	{
 		sleep(10000);

@@ -1,67 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="0" total="15" passed="11">
+<testng-results skipped="0" failed="3" ignored="0" total="15" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="261570" started-at="2020-01-27T19:35:21Z" finished-at="2020-01-27T19:39:42Z">
+  <suite name="Suite" duration-ms="347272" started-at="2020-01-28T21:05:19Z" finished-at="2020-01-28T21:11:06Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="261570" started-at="2020-01-27T19:35:21Z" finished-at="2020-01-27T19:39:42Z">
+    <test name="Test" duration-ms="347272" started-at="2020-01-28T21:05:19Z" finished-at="2020-01-28T21:11:06Z">
       <class name="tests.LoginTest">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@545de5a4]" name="setup" is-config="true" duration-ms="5198" started-at="2020-01-27T19:38:34Z" finished-at="2020-01-27T19:38:39Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.LoginTest@64beebb7]" name="setup" is-config="true" duration-ms="4909" started-at="2020-01-28T21:08:58Z" finished-at="2020-01-28T21:09:03Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2b41b8bb]]>
+                <![CDATA[org.testng.TestRunner@37e64e37]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="Login01_loginInvalid()[pri:0, instance:tests.LoginTest@545de5a4]" name="Login01_loginInvalid" duration-ms="461" started-at="2020-01-27T19:38:39Z" description="Invalid login" finished-at="2020-01-27T19:38:39Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="PASS" signature="Login01_loginInvalid()[pri:0, instance:tests.LoginTest@64beebb7]" name="Login01_loginInvalid" duration-ms="7526" started-at="2020-01-28T21:09:03Z" description="Invalid login" finished-at="2020-01-28T21:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login01_loginInvalid -->
+        <test-method status="PASS" signature="Login02_loginCreateAccount()[pri:0, instance:tests.LoginTest@64beebb7]" name="Login02_loginCreateAccount" duration-ms="1807" started-at="2020-01-28T21:09:10Z" finished-at="2020-01-28T21:09:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login02_loginCreateAccount -->
+        <test-method status="PASS" signature="Login03_loginSucceed()[pri:0, instance:tests.LoginTest@64beebb7]" name="Login03_loginSucceed" duration-ms="8540" started-at="2020-01-28T21:09:12Z" description="Login succeeded" finished-at="2020-01-28T21:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login03_loginSucceed -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.LoginTest@64beebb7]" name="closeDriver" is-config="true" duration-ms="622" started-at="2020-01-28T21:09:21Z" finished-at="2020-01-28T21:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.ChangePasswordTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ChangePasswordTest@3185fa6b]" name="setup" is-config="true" duration-ms="5499" started-at="2020-01-28T21:05:48Z" finished-at="2020-01-28T21:05:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37e64e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="changePassword()[pri:0, instance:tests.ChangePasswordTest@3185fa6b]" name="changePassword" duration-ms="25460" started-at="2020-01-28T21:05:54Z" description="Succeed," finished-at="2020-01-28T21:06:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.ChangePasswordTest@3185fa6b]" name="closeDriver" is-config="true" duration-ms="620" started-at="2020-01-28T21:06:19Z" finished-at="2020-01-28T21:06:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.ChangePasswordTest -->
+      <class name="tests.CreateWorkspaceTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CreateWorkspaceTest@5b58ed3c]" name="setup" is-config="true" duration-ms="5140" started-at="2020-01-28T21:06:58Z" finished-at="2020-01-28T21:07:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37e64e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="createNewWorkspace()[pri:0, instance:tests.CreateWorkspaceTest@5b58ed3c]" name="createNewWorkspace" duration-ms="36737" started-at="2020-01-28T21:07:03Z" description="Succeeded creating a new workspace" finished-at="2020-01-28T21:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewWorkspace -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.CreateWorkspaceTest@5b58ed3c]" name="closeDriver" is-config="true" duration-ms="633" started-at="2020-01-28T21:07:40Z" finished-at="2020-01-28T21:07:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.CreateWorkspaceTest -->
+      <class name="tests.ResetPasswordTests">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ResetPasswordTests@21005f6c]" name="setup" is-config="true" duration-ms="5090" started-at="2020-01-28T21:10:11Z" finished-at="2020-01-28T21:10:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37e64e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="resetPassword()[pri:0, instance:tests.ResetPasswordTests@21005f6c]" name="resetPassword" duration-ms="8673" started-at="2020-01-28T21:10:16Z" finished-at="2020-01-28T21:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetPassword -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.ResetPasswordTests@21005f6c]" name="closeDriver" is-config="true" duration-ms="627" started-at="2020-01-28T21:10:25Z" finished-at="2020-01-28T21:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.ResetPasswordTests -->
+      <class name="tests.HomePageTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.HomePageTest@3a320ade]" name="setup" is-config="true" duration-ms="5221" started-at="2020-01-28T21:08:45Z" finished-at="2020-01-28T21:08:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37e64e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getStartedforFree()[pri:0, instance:tests.HomePageTest@3a320ade]" name="getStartedforFree" duration-ms="6671" started-at="2020-01-28T21:08:51Z" finished-at="2020-01-28T21:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStartedforFree -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.HomePageTest@3a320ade]" name="closeDriver" is-config="true" duration-ms="641" started-at="2020-01-28T21:08:57Z" finished-at="2020-01-28T21:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.AnalyticsTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.AnalyticsTest@7651218e]" name="setup" is-config="true" duration-ms="7353" started-at="2020-01-28T21:05:19Z" finished-at="2020-01-28T21:05:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37e64e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="t01_analyzeProjects()[pri:0, instance:tests.AnalyticsTest@7651218e]" name="t01_analyzeProjects" duration-ms="20735" started-at="2020-01-28T21:05:26Z" finished-at="2020-01-28T21:05:47Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"[name='email']"}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MAYA10', ip: '10.1.1.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAYA~1.TZU\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8cbd4856b643de7d26dcf8556dc0ca84
-*** Element info: {Using=css selector, value=[name='email']}]]>
+              <![CDATA[expected [14] but found [15]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[name='email']"}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MAYA10', ip: '10.1.1.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAYA~1.TZU\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52942}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8cbd4856b643de7d26dcf8556dc0ca84
-*** Element info: {Using=css selector, value=[name='email']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.clear(Unknown Source)
-at pageobject.BasePage.fillText(BasePage.java:29)
-at pageobject.LoginPage.fillText(LoginPage.java:8)
-at pageobject.LoginPage.login(LoginPage.java:33)
-at tests.LoginTest.Login01_loginInvalid(LoginTest.java:24)
+              <![CDATA[java.lang.AssertionError: expected [14] but found [15]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:652)
+at org.testng.Assert.assertEquals(Assert.java:662)
+at tests.AnalyticsTest.t01_analyzeProjects(AnalyticsTest.java:30)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -93,124 +176,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login01_loginInvalid -->
-        <test-method status="PASS" signature="Login02_loginCreateAccount()[pri:0, instance:tests.LoginTest@545de5a4]" name="Login02_loginCreateAccount" duration-ms="1765" started-at="2020-01-27T19:38:40Z" finished-at="2020-01-27T19:38:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login02_loginCreateAccount -->
-        <test-method status="PASS" signature="Login03_loginSucceed()[pri:0, instance:tests.LoginTest@545de5a4]" name="Login03_loginSucceed" duration-ms="4606" started-at="2020-01-27T19:38:42Z" description="Login succeeded" finished-at="2020-01-27T19:38:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login03_loginSucceed -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.LoginTest@545de5a4]" name="closeDriver" is-config="true" duration-ms="627" started-at="2020-01-27T19:38:46Z" finished-at="2020-01-27T19:38:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- tests.LoginTest -->
-      <class name="tests.ChangePasswordTest">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ChangePasswordTest@64beebb7]" name="setup" is-config="true" duration-ms="5419" started-at="2020-01-27T19:35:45Z" finished-at="2020-01-27T19:35:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2b41b8bb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="changePassword()[pri:0, instance:tests.ChangePasswordTest@64beebb7]" name="changePassword" duration-ms="21603" started-at="2020-01-27T19:35:50Z" description="Succeed," finished-at="2020-01-27T19:36:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- changePassword -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.ChangePasswordTest@64beebb7]" name="closeDriver" is-config="true" duration-ms="635" started-at="2020-01-27T19:36:12Z" finished-at="2020-01-27T19:36:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- tests.ChangePasswordTest -->
-      <class name="tests.CreateWorkspaceTest">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CreateWorkspaceTest@bcec031]" name="setup" is-config="true" duration-ms="5125" started-at="2020-01-27T19:36:44Z" finished-at="2020-01-27T19:36:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2b41b8bb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createNewWorkspace()[pri:0, instance:tests.CreateWorkspaceTest@bcec031]" name="createNewWorkspace" duration-ms="32738" started-at="2020-01-27T19:36:49Z" description="Succeeded creating a new workspace" finished-at="2020-01-27T19:37:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewWorkspace -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.CreateWorkspaceTest@bcec031]" name="closeDriver" is-config="true" duration-ms="612" started-at="2020-01-27T19:37:22Z" finished-at="2020-01-27T19:37:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- tests.CreateWorkspaceTest -->
-      <class name="tests.ResetPasswordTests">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ResetPasswordTests@3faf2e7d]" name="setup" is-config="true" duration-ms="5252" started-at="2020-01-27T19:39:01Z" finished-at="2020-01-27T19:39:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2b41b8bb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="resetPassword()[pri:0, instance:tests.ResetPasswordTests@3faf2e7d]" name="resetPassword" duration-ms="2549" started-at="2020-01-27T19:39:06Z" finished-at="2020-01-27T19:39:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resetPassword -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.ResetPasswordTests@3faf2e7d]" name="closeDriver" is-config="true" duration-ms="1053" started-at="2020-01-27T19:39:09Z" finished-at="2020-01-27T19:39:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- tests.ResetPasswordTests -->
-      <class name="tests.HomePageTest">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.HomePageTest@32f0fba8]" name="setup" is-config="true" duration-ms="5283" started-at="2020-01-27T19:38:21Z" finished-at="2020-01-27T19:38:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2b41b8bb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="getStartedforFree()[pri:0, instance:tests.HomePageTest@32f0fba8]" name="getStartedforFree" duration-ms="6723" started-at="2020-01-27T19:38:26Z" finished-at="2020-01-27T19:38:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getStartedforFree -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.HomePageTest@32f0fba8]" name="closeDriver" is-config="true" duration-ms="613" started-at="2020-01-27T19:38:33Z" finished-at="2020-01-27T19:38:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- tests.HomePageTest -->
-      <class name="tests.AnalyticsTest">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.AnalyticsTest@3a320ade]" name="setup" is-config="true" duration-ms="6812" started-at="2020-01-27T19:35:21Z" finished-at="2020-01-27T19:35:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2b41b8bb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="t01_analyzeProjects()[pri:0, instance:tests.AnalyticsTest@3a320ade]" name="t01_analyzeProjects" duration-ms="16337" started-at="2020-01-27T19:35:27Z" finished-at="2020-01-27T19:35:44Z">
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t01_analyzeProjects -->
-        <test-method status="FAIL" signature="t02_analyzePublished()[pri:0, instance:tests.AnalyticsTest@3a320ade]" name="t02_analyzePublished" duration-ms="19" started-at="2020-01-27T19:35:44Z" finished-at="2020-01-27T19:35:44Z">
+        <test-method status="FAIL" signature="t02_analyzePublished()[pri:0, instance:tests.AnalyticsTest@7651218e]" name="t02_analyzePublished" duration-ms="20" started-at="2020-01-28T21:05:47Z" finished-at="2020-01-28T21:05:47Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".login"}
@@ -219,8 +189,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MAYA10', ip: '10.1.1.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAYA~1.TZU\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7690c150220fe6c10cf3b9d5ba80f9a6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAYA~1.TZU\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52947}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8e53a695983b2753bf0cb3f6bd59375b
 *** Element info: {Using=css selector, value=.login}]]>
             </message>
             <full-stacktrace>
@@ -230,8 +200,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'MAYA10', ip: '10.1.1.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAYA~1.TZU\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7690c150220fe6c10cf3b9d5ba80f9a6
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAYA~1.TZU\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:52947}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8e53a695983b2753bf0cb3f6bd59375b
 *** Element info: {Using=css selector, value=.login}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -289,205 +259,142 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t02_analyzePublished -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.AnalyticsTest@3a320ade]" name="closeDriver" is-config="true" duration-ms="614" started-at="2020-01-27T19:35:44Z" finished-at="2020-01-27T19:35:45Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.AnalyticsTest@7651218e]" name="closeDriver" is-config="true" duration-ms="632" started-at="2020-01-28T21:05:47Z" finished-at="2020-01-28T21:05:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- tests.AnalyticsTest -->
       <class name="tests.CreateProjectTest">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CreateProjectTest@7813cb11]" name="setup" is-config="true" duration-ms="5447" started-at="2020-01-27T19:36:13Z" finished-at="2020-01-27T19:36:18Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CreateProjectTest@6d366c9b]" name="setup" is-config="true" duration-ms="5231" started-at="2020-01-28T21:06:20Z" finished-at="2020-01-28T21:06:25Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2b41b8bb]]>
+                <![CDATA[org.testng.TestRunner@37e64e37]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createNewProject()[pri:0, instance:tests.CreateProjectTest@7813cb11]" name="createNewProject" duration-ms="25623" started-at="2020-01-27T19:36:18Z" finished-at="2020-01-27T19:36:44Z">
+        <test-method status="PASS" signature="createNewProject()[pri:0, instance:tests.CreateProjectTest@6d366c9b]" name="createNewProject" duration-ms="32178" started-at="2020-01-28T21:06:25Z" finished-at="2020-01-28T21:06:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewProject -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.CreateProjectTest@7813cb11]" name="closeDriver" is-config="true" duration-ms="634" started-at="2020-01-27T19:36:44Z" finished-at="2020-01-27T19:36:44Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.CreateProjectTest@6d366c9b]" name="closeDriver" is-config="true" duration-ms="650" started-at="2020-01-28T21:06:57Z" finished-at="2020-01-28T21:06:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- tests.CreateProjectTest -->
       <class name="tests.UpgradeAccountTest">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.UpgradeAccountTest@569bf9eb]" name="setup" is-config="true" duration-ms="5544" started-at="2020-01-27T19:39:30Z" finished-at="2020-01-27T19:39:35Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.UpgradeAccountTest@545de5a4]" name="setup" is-config="true" duration-ms="5371" started-at="2020-01-28T21:10:49Z" finished-at="2020-01-28T21:10:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2b41b8bb]]>
+                <![CDATA[org.testng.TestRunner@37e64e37]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="upgradeYourAccount()[pri:0, instance:tests.UpgradeAccountTest@569bf9eb]" name="upgradeYourAccount" duration-ms="6159" started-at="2020-01-27T19:39:35Z" finished-at="2020-01-27T19:39:41Z">
+        <test-method status="PASS" signature="upgradeYourAccount()[pri:0, instance:tests.UpgradeAccountTest@545de5a4]" name="upgradeYourAccount" duration-ms="10403" started-at="2020-01-28T21:10:55Z" finished-at="2020-01-28T21:11:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- upgradeYourAccount -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.UpgradeAccountTest@569bf9eb]" name="closeDriver" is-config="true" duration-ms="632" started-at="2020-01-27T19:39:41Z" finished-at="2020-01-27T19:39:42Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.UpgradeAccountTest@545de5a4]" name="closeDriver" is-config="true" duration-ms="624" started-at="2020-01-28T21:11:05Z" finished-at="2020-01-28T21:11:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- tests.UpgradeAccountTest -->
       <class name="tests.OrganizationTest">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.OrganizationTest@29ef6856]" name="setup" is-config="true" duration-ms="5315" started-at="2020-01-27T19:38:47Z" finished-at="2020-01-27T19:38:52Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.OrganizationTest@7813cb11]" name="setup" is-config="true" duration-ms="5311" started-at="2020-01-28T21:09:21Z" finished-at="2020-01-28T21:09:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2b41b8bb]]>
+                <![CDATA[org.testng.TestRunner@37e64e37]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="editOrganization()[pri:0, instance:tests.OrganizationTest@29ef6856]" name="editOrganization" duration-ms="461" started-at="2020-01-27T19:38:52Z" description="Succeeded edit organization" finished-at="2020-01-27T19:38:53Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"[name='email']"}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MAYA10', ip: '10.1.1.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAYA~1.TZU\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:53012}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5fd8b68f197ab57908f10889fdf94c3
-*** Element info: {Using=css selector, value=[name='email']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"[name='email']"}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MAYA10', ip: '10.1.1.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAYA~1.TZU\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:53012}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b5fd8b68f197ab57908f10889fdf94c3
-*** Element info: {Using=css selector, value=[name='email']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.clear(Unknown Source)
-at pageobject.BasePage.fillText(BasePage.java:29)
-at pageobject.LoginPage.fillText(LoginPage.java:8)
-at pageobject.LoginPage.login(LoginPage.java:33)
-at tests.OrganizationTest.editOrganization(OrganizationTest.java:22)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="editOrganization()[pri:0, instance:tests.OrganizationTest@7813cb11]" name="editOrganization" duration-ms="35296" started-at="2020-01-28T21:09:27Z" description="Succeeded edit organization" finished-at="2020-01-28T21:10:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editOrganization -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.OrganizationTest@29ef6856]" name="closeDriver" is-config="true" duration-ms="617" started-at="2020-01-27T19:38:53Z" finished-at="2020-01-27T19:38:54Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.OrganizationTest@7813cb11]" name="closeDriver" is-config="true" duration-ms="615" started-at="2020-01-28T21:10:02Z" finished-at="2020-01-28T21:10:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- tests.OrganizationTest -->
       <class name="tests.RegistrationTest">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.RegistrationTest@ab7a938]" name="setup" is-config="true" duration-ms="5211" started-at="2020-01-27T19:38:54Z" finished-at="2020-01-27T19:38:59Z">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.RegistrationTest@bcec031]" name="setup" is-config="true" duration-ms="5233" started-at="2020-01-28T21:10:03Z" finished-at="2020-01-28T21:10:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2b41b8bb]]>
+                <![CDATA[org.testng.TestRunner@37e64e37]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="openLogin()[pri:0, instance:tests.RegistrationTest@ab7a938]" name="openLogin" duration-ms="482" started-at="2020-01-27T19:38:59Z" finished-at="2020-01-27T19:39:00Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="PASS" signature="openLogin()[pri:0, instance:tests.RegistrationTest@bcec031]" name="openLogin" duration-ms="2275" started-at="2020-01-28T21:10:08Z" finished-at="2020-01-28T21:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLogin -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.RegistrationTest@bcec031]" name="closeDriver" is-config="true" duration-ms="622" started-at="2020-01-28T21:10:10Z" finished-at="2020-01-28T21:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.RegistrationTest -->
+      <class name="tests.DeleteProjectTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.DeleteProjectTest@24faea88]" name="setup" is-config="true" duration-ms="5345" started-at="2020-01-28T21:07:40Z" finished-at="2020-01-28T21:07:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37e64e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteProjectTest()[pri:0, instance:tests.DeleteProjectTest@24faea88]" name="deleteProjectTest" duration-ms="59224" started-at="2020-01-28T21:07:46Z" finished-at="2020-01-28T21:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProjectTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.DeleteProjectTest@24faea88]" name="closeDriver" is-config="true" duration-ms="650" started-at="2020-01-28T21:08:45Z" finished-at="2020-01-28T21:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.DeleteProjectTest -->
+      <class name="tests.SearchProjectTest">
+        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.SearchProjectTest@32f0fba8]" name="setup" is-config="true" duration-ms="5670" started-at="2020-01-28T21:10:25Z" finished-at="2020-01-28T21:10:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37e64e37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="searchProject()[pri:0, instance:tests.SearchProjectTest@32f0fba8]" name="searchProject" duration-ms="17541" started-at="2020-01-28T21:10:31Z" finished-at="2020-01-28T21:10:48Z">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#app-layout div:nth-child(4) p > a"}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MAYA10', ip: '10.1.1.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAYA~1.TZU\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:53072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 183deeae7dee8b032cdbf5179cf79937
-*** Element info: {Using=css selector, value=#app-layout div:nth-child(4) p > a}]]>
+              <![CDATA[expected [First (copy)] but found [First]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#app-layout div:nth-child(4) p > a"}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MAYA10', ip: '10.1.1.182', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\MAYA~1.TZU\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:53072}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 183deeae7dee8b032cdbf5179cf79937
-*** Element info: {Using=css selector, value=#app-layout div:nth-child(4) p > a}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
-at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy12.click(Unknown Source)
-at pageobject.BasePage.click(BasePage.java:25)
-at pageobject.RegistrationPage.click(RegistrationPage.java:8)
-at pageobject.RegistrationPage.openLoginPage(RegistrationPage.java:34)
-at tests.RegistrationTest.openLogin(RegistrationTest.java:21)
+              <![CDATA[java.lang.AssertionError: expected [First (copy)] but found [First]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at tests.SearchProjectTest.searchProject(SearchProjectTest.java:28)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -519,53 +426,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openLogin -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.RegistrationTest@ab7a938]" name="closeDriver" is-config="true" duration-ms="617" started-at="2020-01-27T19:39:01Z" finished-at="2020-01-27T19:39:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- tests.RegistrationTest -->
-      <class name="tests.DeleteProjectTest">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.DeleteProjectTest@21005f6c]" name="setup" is-config="true" duration-ms="5512" started-at="2020-01-27T19:37:23Z" finished-at="2020-01-27T19:37:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2b41b8bb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="deleteProjectTest()[pri:0, instance:tests.DeleteProjectTest@21005f6c]" name="deleteProjectTest" duration-ms="52318" started-at="2020-01-27T19:37:28Z" finished-at="2020-01-27T19:38:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteProjectTest -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.DeleteProjectTest@21005f6c]" name="closeDriver" is-config="true" duration-ms="653" started-at="2020-01-27T19:38:21Z" finished-at="2020-01-27T19:38:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- tests.DeleteProjectTest -->
-      <class name="tests.SearchProjectTest">
-        <test-method status="PASS" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.SearchProjectTest@4648ce9]" name="setup" is-config="true" duration-ms="5362" started-at="2020-01-27T19:39:10Z" finished-at="2020-01-27T19:39:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2b41b8bb]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="searchProject()[pri:0, instance:tests.SearchProjectTest@4648ce9]" name="searchProject" duration-ms="13821" started-at="2020-01-27T19:39:15Z" finished-at="2020-01-27T19:39:29Z">
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProject -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.SearchProjectTest@4648ce9]" name="closeDriver" is-config="true" duration-ms="621" started-at="2020-01-27T19:39:29Z" finished-at="2020-01-27T19:39:30Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:tests.SearchProjectTest@32f0fba8]" name="closeDriver" is-config="true" duration-ms="622" started-at="2020-01-28T21:10:49Z" finished-at="2020-01-28T21:10:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->

@@ -17,7 +17,6 @@ public class LoginPage extends BasePage {
 	private WebElement invalidCredentialsMsg;
 	@FindBy(css="div div:nth-child(2) > p > a")
 	private WebElement createAccountLink;
-	
 	//Forgot password
 	@FindBy(css = "div:nth-child(6) a")
 	private WebElement forgotPassLink;
@@ -28,7 +27,7 @@ public class LoginPage extends BasePage {
 	/**
 	 * Login process
 	 */
-	@Step("Fill in email and password fields and click login button")
+	@Step("Fill in email and password fields and click the login button")
 	public void login(String email, String password) {
 		sleep(2000);
 		fillText(emailLogin, email);
@@ -38,12 +37,15 @@ public class LoginPage extends BasePage {
 		click(loginBtn);
 	}
 
-	@Step("Clicking on forgot password link")
+	
 	/**
 	 * Clicks the forgot password link
 	 */
+	@Step("Click on forgot password link")
 	public void forgotPass() {
+		sleep(3000);
 		click(forgotPassLink);
+		sleep(3000);
 	}
 	/**
 	 * Gets the message when user writes invalid credentials
@@ -55,7 +57,7 @@ public class LoginPage extends BasePage {
 	/**
 	 * Clicks create an account link
 	 */
-	@Step("Clicking on create an account link")
+	@Step("Click on create an account link")
 	public void openRegistration() {
 		click(createAccountLink);
 	}

@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import io.qameta.allure.Step;
+
 public class GeneralSettingsPage extends BasePage{
 
 	@FindBy(css=".md\\:px-10 > button > span")
@@ -15,6 +17,7 @@ public class GeneralSettingsPage extends BasePage{
 	/**
 	 * Clicks the ready to publish button
 	 */
+	@Step("Click on 'Ready to publish' button")
 	public void readyToPublishBtn() {
 		click(publishBtn);
 	}
