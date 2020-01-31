@@ -25,7 +25,7 @@ public class HomePage extends BasePage{
 	 */
 	@Step("Open Home Page and click the Login link")
 	public void openLoginPage() {
-		click(loginLink);
+			click(loginLink);
 	}	
 	/**
 	 * Clicks the register link to open the registration page

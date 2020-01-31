@@ -10,12 +10,13 @@ import pageobject.LoginPage;
 import pageobject.MainPage;
 import pageobject.RegistrationPage;
 import utilities.AllureAttachment;
+import utilities.DataProviders;
 
 public class LoginTest extends BaseTest {
 	
 	@Severity(SeverityLevel.BLOCKER)
 	@Description("This login test is invalid login")
-	@Test(description="Invalid login")
+	@Test(description="Invalid login", dataProvider= "loginCradentils", dataProviderClass= DataProviders.class)
 	public void Login01_loginInvalid() {
 		
 		HomePage hp = new HomePage(driver);
